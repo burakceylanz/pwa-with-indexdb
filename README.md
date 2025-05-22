@@ -11,27 +11,6 @@ This is a modern **Progressive Web Application (PWA)** built with **React** and 
 - 🔁 API requests are stored in IndexedDB and served locally when offline
 - 📲 Installable on mobile devices like a native app
 
-## 📁 Project Structure
-
-├── public/
-│ ├── manifest.json
-│ ├── icons/
-│ └── ...
-├── src/
-│ ├── services/
-│ │ ├── indexedDB.ts // IndexedDB utility functions
-│ │ └── apiService.ts // API logic and caching
-│ ├── components/
-│ ├── App.tsx
-│ └── ...
-├── service-worker.ts // Custom service worker for caching logic
-├── tsconfig.json
-└── package.json
-
-bash
-Copy
-Edit
-
 ## 🧰 Tech Stack
 
 - React
@@ -85,10 +64,3 @@ Visuals and layout remain intact through cached assets.
 Modern browser with PWA and IndexedDB support
 
 pnpm (you can install it via npm i -g pnpm)
-
-📄 License
-MIT License
-
-🤝 Contributing
-Feel free to open issues, suggest features, or submit pull requests!
-
