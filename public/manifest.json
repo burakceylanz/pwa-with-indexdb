@@ -1,0 +1,24 @@
+{
+  "name": "PWA App with IndexDB",
+  "short_name": "PWA",
+  "description": "Offline React,TS + Vite Application",
+  "start_url": ".",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "vite.svg",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "react.svg",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+     {
+      "src": "spinner.svg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
